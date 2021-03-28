@@ -39,6 +39,9 @@ public class MainActivity extends AppCompatActivity {
             case R.id.white:
                 view.setBackgroundColor(Color.WHITE);
                 return true;
+            case R.id.yellow:
+                view.setBackgroundColor(Color.YELLOW);
+                return true;
         }
         return false;
     }
